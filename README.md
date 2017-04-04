@@ -1,6 +1,10 @@
 #Introduce
 
-Use node.js to control gpio on cubieboard
+Programa feito com base nesse outro projeto https://github.com/youyudehexie/node-cubieboard-gpio
+
+Testado em processadores H3.
+
+Modificado para funcionar com a versão 0.12 do V8 (Node 4.x.x) ou maior.
 
 #Install
 
