@@ -24,7 +24,8 @@ void init(const FunctionCallbackInfo<Value>& args) {
     Isolate* isolate = Isolate::GetCurrent();
     HandleScope scope(isolate);
 
-    sunxi_gpio_init();    
+    sunxi_gpio_init();
+    sunxi_gpio_init_R_PIO();    
 
     args.GetReturnValue().Set(SETUP_OK);
 }
